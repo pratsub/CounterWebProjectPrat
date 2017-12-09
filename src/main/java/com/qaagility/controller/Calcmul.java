@@ -3,10 +3,12 @@ public class  Calcmul {
 
 
  public static void main(String args[]) {
-  multiply(3,5);
+ 
+  Calcmul cal = new Calcmul;
+  cal.multiply(3,5);
  }
  
-  public int multiply(int a, int b){
+  private int multiply(int a, int b){
     return  a*b;
  }
 }
