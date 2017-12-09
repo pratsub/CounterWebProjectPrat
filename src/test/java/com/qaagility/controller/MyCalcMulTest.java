@@ -1,10 +1,21 @@
 package com.qaagility.controller;
 import org.junit.Test;
+import org.junit.Before;
+import org.junit.After;
 import static org.junit.Assert.assertEquals;
 import com.qaagility.controller.Calcmul;
 public class MyCalcMulTest{
   
   Calcmul calc = new Calcmul();
+  @Before
+  public void before(){
+    System.out.println("Before")
+  }
+  
+  @After
+  public void after(){
+    System.out.println("After")
+  }
   
   @Test
   public void testCalc(){
