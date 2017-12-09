@@ -9,7 +9,7 @@ public class  Calcmul {
   System.out.println("Multiplication output " + i);
  }
  
-  private int multiply(int a, int b){
+  public int multiply(int a, int b){
     return  a*b;
  }
 }
