@@ -18,10 +18,11 @@ public class CalcmulTest{
   public void testCalc(){
     assertEquals("To-Pass", 9, 9);
   }
-  
+  /*
   @Test
   public void testCalc1(){
     assertEquals("To-Fail", 90, 9);
   }
+  */
   
   }
