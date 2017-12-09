@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 import com.qaagility.controller.Calcmul;
 public class MyCalcMulTest{
   
-  Calcmul calc = new ClacMul();
+  Calcmul calc = new Calcmul();
   
   @Test
   public void testCalc(){
