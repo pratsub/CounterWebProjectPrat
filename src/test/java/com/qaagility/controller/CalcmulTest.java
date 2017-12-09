@@ -16,6 +16,12 @@ public class CalcmulTest{
   
   @Test
   public void testCalc(){
-    assertEquals("Result", 9, 9);
+    assertEquals("To-Pass", 9, 9);
   }
+  
+  @Test
+  public void testCalc1(){
+    assertEquals("To-Fail", 90, 9);
+  }
+  
   }
