@@ -9,12 +9,12 @@ public class MyCalcMulTest{
   Calcmul calc = new Calcmul();
   @Before
   public void before(){
-    System.out.println("Before")
+    System.out.println("Before");
   }
   
   @After
   public void after(){
-    System.out.println("After")
+    System.out.println("After");
   }
   
   @Test
