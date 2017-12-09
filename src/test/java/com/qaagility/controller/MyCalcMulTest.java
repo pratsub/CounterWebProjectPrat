@@ -11,11 +11,12 @@ public class MyCalcMulTest{
     int result = calc.multiply(9,9);
     assertEquals("To-Pass", 81, result);
   }
+  /*
   
   @Test
   public void testCalc1(){
     int result = calc.multiply(9,9);
     assertEquals("To-Fail", 90, result);
-  }
+  } */
   
 }
