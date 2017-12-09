@@ -14,6 +14,7 @@ public class MyCalcMulTest{
   
   @Test
   public void testCalc1(){
+    int result = calc.multiply(9,9);
     assertEquals("To-Fail", 90, result);
   }
   
