@@ -4,7 +4,7 @@ public class  Calcmul {
 
  public static void main(String args[]) {
  
-  Calcmul cal = new Calcmul;
+  Calcmul cal = new Calcmul();
   int i = cal.multiply(3,5);
   System.out.println("Multiplication output " + i);
  }
